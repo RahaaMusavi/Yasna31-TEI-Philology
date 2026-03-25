@@ -15,6 +15,12 @@ The objective of this project is to model complex multilingual Zoroastrian texts
 - `parse-yasna.py`: Python script utilizing `xml.etree.ElementTree` for data extraction.
 - `new_env/`: (Local) Python virtual environment for dependency management.
 
+### 📜 Customization & Validation (ODD)
+The repository includes `yasna_customization.odd`, a formal TEI ODD (One Document Does-it-all) file. 
+- **Purpose:** To provide project-specific semantic constraints for the `<seg>` element.
+- **Project Alignment:** This customization redefines segments to ensure they are machine-readable and ready to be used.
+- **Schema Control:** Restricts the TEI P5 modules to those required for multilingual philology.
+
 ## 🚀 How to Run
 1. Activate the environment: `.\new_env\Scripts\Activate.ps1`
 2. Run the parser: `python parse-yasna.py`
