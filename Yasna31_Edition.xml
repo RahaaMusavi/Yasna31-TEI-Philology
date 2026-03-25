@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Digital Edition of Yasna 31: Avestan, Zand, and Sanskrit Versions</title>
+        <author>S. Fatemeh (Raha) Musavi</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Technical Demonstration for CRC 1475 INF Project Application</p>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl xml:id="Musavi2016">
+          <author>Musavi, S. F.</author>
+          <title>Yasna 31: An Analysis of the Avestan, Zand and Sanskrit Versions</title>
+          <date>2016</date>
+          <note type="degree">PhD Dissertation, University of Tehran</note>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This file demonstrates the migration of philological research data into a
+          machine-readable TEI P5 format.</p>
+      </projectDesc>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div type="haiti" n="31">
+        <head>Yasna 31</head>
+
+        <div type="stanza" n="1" xml:id="Y31.1">
+          <cit type="venerable-avestan" xml:lang="ae">
+            <l>tā vō uruuātā marəṇtō aguštā vacā sēṇghāmahī</l>
+            <l>aēibiiō yōi uruuātāiš drujō ašahiiā gaēϑā vīmərəncaitē</l>
+          </cit>
+          <div type="translation" xml:lang="fa" rend="rtl">
+            <p>آنجا که دانندۀ بالندگی، اهوره اقامت دارد.</p>
+          </div>
+          <entry xml:id="asaiia" xml:lang="ae">
+            <form type="lemma">ąsaiiằ</form>
+            <gramGrp>
+              <gram type="case">genitive</gram>
+              <gram type="number">dual</gram>
+            </gramGrp>
+            <note type="scholarly-debate">
+              <listBibl>
+                <bibl source="Bartholomae_1904">
+                  <gloss xml:lang="de">"Gruppe, Partei"</gloss>
+                  <note>Refers to the two groups: Ahuric and Ahrimanic.</note>
+                </bibl>
+                <bibl source="Insler_1975">
+                  <note>Linked to Sanskrit <mentioned xml:lang="sa">áṃśa-</mentioned>
+                    (portion/share). </note>
+                </bibl>
+              </listBibl>
+            </note>
+          </entry>
+
+          <entry xml:id="mazda-ahura">
+            <form type="lemma">mazdā ahurō</form>
+            <note xml:lang="fa">اهوره از طریق کردارهای مینوی بهترین دانا است.</note>
+          </entry>
+        </div>
+        <div type="commentary" xml:id="hermeneutic-analysis">
+          <p xml:lang="fa" rend="rtl">
+            تحلیل هرمنوتیک متن اوستایی برای دریافتن لایه های معنایی متن و نمایش مراحل تفسیر آن...
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
